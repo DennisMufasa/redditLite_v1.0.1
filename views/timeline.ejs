@@ -1,12 +1,13 @@
 <% include templates/header.ejs %>
 
-<h2>Recently on the Timeline:</h2>
+<h2 class="text-primary">Recently on the Timeline:</h2>
 
 <ul>
     <% myData.forEach((item) =>{ %>
         <hr>
         <li><%= item.title %></li>
-        <li> <img src="<%= item.image%>" style="width: 50px"/></li>
+        <img src="<%= item.image%>" style="width: 50px"/>
+        <li><p>Just some random posts for testing the ejs view engine.</p> </li>
         <hr>
         
     <% }); %>   
