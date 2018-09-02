@@ -1,0 +1,16 @@
+{
+  "name": "reddit1.0",
+  "version": "1.0.0",
+  "description": "assignment for reddit lite web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mufasa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

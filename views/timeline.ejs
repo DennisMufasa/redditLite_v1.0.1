@@ -1,0 +1,15 @@
+<% include templates/header.ejs %>
+
+<h2>Recently on the Timeline:</h2>
+
+<ul>
+    <% myData.forEach((item) =>{ %>
+        <hr>
+        <li><%= item.title %></li>
+        <li> <img src="<%= item.image%>" style="width: 50px"/></li>
+        <hr>
+        
+    <% }); %>   
+</ul>
+
+<% include templates/footer.ejs %>
